@@ -19,12 +19,11 @@ o1 = {
 }
 
 function objectToArray(obj) {
-    console.log("in objectToArray")
-    console.log("\nobj : ", obj)
+    objEntries = Object.entries(objs)
 
-    objKeys = Object.keys(objs)
+    return objEntries
 	
-	console.log("\nobjKeys : ", objKeys)
+	
 }
 
 
