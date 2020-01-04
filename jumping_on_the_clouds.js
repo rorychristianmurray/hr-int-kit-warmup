@@ -11,20 +11,20 @@ function jumpingOnClouds(c) {
         if (c[i] === 1) {
             // check next value
             if (c[i + 2] === 0) {
-                jump = jump + 1
-                i = i + 1
+                jump++
+                i++
             } else {
-                jump = jump + 1
+                jump++
             }
         }
 
         if (c[i] === 0) {
             // check next value
             if (c[i + 2] === 0) {
-                jump = jump + 1
-                i = i + 1
+                jump++
+                i++
             } else {
-                jump = jump + 1
+                jump++
             }
         }
 
